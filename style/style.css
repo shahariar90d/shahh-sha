@@ -1,0 +1,272 @@
+*{
+    margin: 0px auto;
+    padding-top: 10px;
+}
+
+.nav-contin{
+    display: flex;
+    align-items: center;
+  
+}
+.stile{
+    color: #FF5400;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.paragrap-desipri{
+    color:black;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 20px;
+}
+.logo{
+    width: 50px;
+}
+nav ul{
+    display: flex;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav li{
+    list-style: none;
+    padding: 15px;
+    margin-right: 20px;
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+color: #424242;
+}
+nav a{
+    text-decoration: none;
+}
+.style{
+    color: red;
+}
+/* main */
+.continer{
+    display: flex;
+   justify-content: space-around;
+   
+}
+.content{
+   width: 600px;
+}
+.title{
+    color: #131318;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.primary{
+    color: #FFF;
+background-color: #FF5400;
+border: 0px;
+border-radius: 5px;
+margin-top: 15px;
+padding: 5px;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.light{
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+/* .picture{
+    width: 40%;
+} */
+.continet{
+   text-align: center;
+   background-image: url("Group 13 (1) (1).png");
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1300px;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.header-title{
+ color: #FFF;
+
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.lights{
+    width: 500px;
+    margin-top: 15px;
+}
+.from input{
+   border: 0px;
+   border-radius: 20px;
+   padding: 10px;
+   margin-top: 40px;
+}
+.styles{
+    background-color: #FF5400;
+    color: white;
+}
+.prent{
+    display: flex;
+}
+.tist{
+    width: 500px;
+    height: 200px;
+    background: rgba(70, 42, 9, 0.05);
+    padding: 20px;
+    margin-left: 70px;
+   
+}
+.tists{
+    margin-right: 70px;
+    width: 500px;
+    height: 200px;
+    background: rgb(172, 186, 178);
+    padding: 20px;
+}
+.amar{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.pary{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.hhhgg{
+    font-size: 36px;
+}
+.divison{
+    width:500px ;
+    background: #dfd7d7;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+}
+.hhhggg{
+    text-align: center;
+    font-size: 36px;
+}
+.tem .row{
+    display: flex;
+    
+}
+.row{
+    width: 1200px;
+    gap: 20px;
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 70px;
+}
+.prurj{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.footer-sect{
+  /* width: 550px; */
+  text-align: center;
+
+  padding: 35px;
+  margin-bottom: 50px;
+  height: 200px;
+
+}
+.bangladesh{
+    width: 50%;
+}
+.hello div{
+    display: flex;
+}
+.contents{
+    border: 2px solid red;
+    border-radius: 6px;
+    padding: 10px;
+}
+.contents input{
+    background-color: #dfd7d7;
+    border: 0px;
+    color: rgb(187, 69, 69);
+   
+    padding: 15px;
+    width: 350px;
+    border-radius: 8px;
+}
+.fjk{
+    background:orangered ;
+    width: 250px;
+    padding: 10px;
+    color: white;
+    position: relative;
+   bottom: 150px;
+   left: 200px;
+   border-radius: 10px;
+}
+main{
+    width: 80%;
+    width: 1500px;
+    margin: 0px auto;
+
+}
+.dd{
+    display: flex;
+    margin: 0px auto;
+
+   
+}
+.gjkg{
+    width: 600px;
+}
+.continetss{
+    width: 600px;
+    height: 500px;
+}
+
+@media screen and (max-width:600px) {
+    .continer , .prent{
+        flex-direction: column;
+        width: 300px;
+       
+    }   
+    .content{
+        width: 400px;
+    }
+    .tist{
+        width: 400px;
+       padding: 10px;
+    } 
+    .divison{
+        width: 400px;
+    }
+    .tem .row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 300px;
+        margin: 0px auto ;
+        padding: 0px;
+    }
+    
+}
